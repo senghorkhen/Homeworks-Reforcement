@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: teal;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add-card input{
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    border: none;
+}
+ 
+.add-card button {
+    background: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 0 5px 5px 0 ;
+    border: none;
+    margin-left: -4px;  
+}
+.row {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.col-3 {
+    float: left;
+    margin-left: 10px;
+    width: 20%;
+    height: 120px;
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.buttonCard {
+    width: 80px;
+    height: 30px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
